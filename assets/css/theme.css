@@ -1,0 +1,7 @@
+:root { color-scheme: light dark; }
+.glass { background: color-mix(in srgb, white 84%, transparent); }
+.dark .glass { background: color-mix(in srgb, #0f172a 84%, transparent); }
+.soft-gradient { background: radial-gradient(circle at top right, #fce7f3, #f8fafc 45%, #eef2ff 100%); }
+.dark .soft-gradient { background: radial-gradient(circle at top right, #1e1b4b, #0f172a 45%, #111827 100%); }
+.metric-card { border-radius: 1rem; border: 1px solid rgba(148,163,184,.25); background: rgba(255,255,255,.9); }
+.dark .metric-card { background: rgba(30,41,59,.8); }
